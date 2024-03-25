@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2 conditional-statement</title>
+</head>
+
+<body>
+    <script>
+
+        function numSign(num1, num2, num3) {
+            let product = num1 * num2 * num3;
+            if (product > 0) {
+                alert("The product is positive (+)");
+            } else if (product < 0) {
+                alert("The product is negative (-)")
+            } else {
+                alert("The product is zero (0)");
+            }
+        }
+        let num1 = 2;
+        let num2 = 0;
+        let num3 = 4;
+        numSign(num1, num2, num3);
+    </script>
+</body>
+
+</html>
